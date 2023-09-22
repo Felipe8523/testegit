@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/formulario.css">
+</head>
+<body>
+<!--<form action="#" method="POST" class="form">
+    <fieldset>
+        <Legend>Login</Legend>
+        <label for="User"> Digite seu usuario</label>
+        <input type="text" id="user" name="user">
+        <label for="email"> Digite seu email</label>
+        <input type="email" id="email" name="email">
+        <label for="Password"> Digite a senha</label>
+        <input type="password" id="pass" name="pass">
+
+    </fieldset>
+    <input type="submit" value="Logar" class="btn">    
+</form>-->
+<form action="#" method="POST" class="login">
+    <fieldset>
+        <legend>Dados</legend>
+
+        <label for="email">email</label>
+        <input type="email" required>
+        <label for="#">number</label>
+        <input type="number" min="0" max="100000000000" required>
+        <br>
+        <input type="submit" value="mandar">
+        <br>
+        <label for="#">nascimento</label>
+        <input type="date" min="2018-01-30" max="2130-01-30" required>
+        <br>
+        <p>sexo</p>
+        
+        <label for="">
+            <input type="radio" name="sexo" value="M">
+            Masculino
+        </label>
+        <label for="">
+            <input type="radio" name="sexo" value="F">
+            Feminino
+        </label>
+     <label for="">
+        estado
+     </label>
+     <select name="estado" id="">
+        <option value="SP">Sâo Paulo</option>
+        <option value="BH">Belo Horizonte</option>
+        <option value="BA">Bahia</option>
+        <option value="RJ">Tiroteio gratuito</option>
+     </select>   
+    </fieldset>
+    <fieldset>
+        <legend>area</legend>
+        <label for=""><input type="checkbox" name="html" value="html">HTML</label>
+        <input type="checkbox" name="Css" value="css"> CSS 
+    </fieldset>
+    <fieldset>
+        <legend>mensage</legend>
+        <textarea name="msg" id="textarea" cols="30" rows="10">digite aqui</textarea> <!--cols colunas e rows numero de linhas-->
+        <label><input type="checkbox"></label>
+    </fieldset>
+
+    <input type="submit" value="submit">
+    <input type="button" value="button"> <!--tratar com JS-->
+    <input type="reset" value="reset"> <!--Resetar os dados-->
+    <input type="tel">
+</form>    
+</body>
+</html>

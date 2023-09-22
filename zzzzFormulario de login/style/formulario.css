@@ -1,0 +1,18 @@
+.form{
+    width: 250px;
+    margin: 50px auto 0;
+    font-family: sans-serif;
+
+}
+#user, #pass, #email, .btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.btn{
+    margin-top: 15px;
+}
+#user, #email{
+    margin-bottom: 15px;
+}

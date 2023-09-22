@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient( to left bottom, red, blue);
+     
+}
+
+#radius{
+    background: orange;
+    width: 200px;
+    margin: 50px auto;
+    height: 200px;
+    border-radius: 50px 100px/100px 50px;
+    box-shadow: -10px -10px 12px black, 10px -20px 30px red, -80px 40px 50px blue;/* e possivel ter 
+    mais de uma sombra na caixa */
+}
+@font-face {
+    font-family: 'nadia';
+    src: url();
+}
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -10px -10px 0 red ;
+}

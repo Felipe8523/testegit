@@ -1,0 +1,32 @@
+body{
+    background-color:#162028 ;
+    font-size: 50px;
+}
+.container{
+    background-color: white;
+    border-radius: 40%;
+    height: auto;
+    margin: 50px auto;
+    width: 490px;
+    text-align: center;
+}
+.calculadora{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    cursor: pointer;
+}.btn:hover {
+    background: #9e9e9e;
+}

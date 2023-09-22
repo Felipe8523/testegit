@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    background: beige;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    background: red;
+    border: 2px solid chocolate;
+}
