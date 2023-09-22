@@ -49,6 +49,8 @@ nav a {
     text-decoration: none;
 }
 
+.Container
+
 .header_nav ul{
     display: flex;
     gap: .5rem;
